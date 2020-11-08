@@ -181,6 +181,7 @@ public class Main {
         System.out.println("添加成功!");
     }
 
+    // 查找学号
     private static int getIndex(ArrayList<Student> list, String sid) {
         String id;
         for (int i = 0; i < list.size(); i++) {
